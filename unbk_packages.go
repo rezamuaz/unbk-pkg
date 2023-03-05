@@ -2,7 +2,8 @@ package unbkpkg
 
 import "fmt"
 
-func SecretLock() {
+func SecretLock() string {
 	fmt.Println("Encrypt Lib")
-	fmt.Println("Encrypt Lib")
+	return "Encrypt"
+
 }
